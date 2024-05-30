@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+img {
+    width:33% ;
+    height:254px ;
+    position: absolute;
+    z-index: 3;
+}
+.img2 {
+    width: 33%;
+    height: 254px;
+    position: absolute;
+    margin-left: 371px;
+    z-index: 2;
+}
+.img3 {
+    width: 33%;
+    height: 254px;
+    position: absolute;
+    margin-left: 859px;
+}
+@font-face {
+    font-family: chemi fontebi;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+p {
+font-family: chemi fontebi;
+color: white;
+position: absolute;
+margin-top: 195px;
+margin-left: 320px;
+z-index: 4;
+}
